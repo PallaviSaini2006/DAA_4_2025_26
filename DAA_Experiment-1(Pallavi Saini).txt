@@ -1,3 +1,11 @@
+/*
+1. Recurrence relation: T(n)=3T(n/2)+nlogn+2n+2
+2. Master Theorem: a=3, b=2, k=1, p=1
+        T(n)=O(n^(log(base 2)3))
+3. Operations=88
+   Depth=3
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -43,4 +51,5 @@ int main(){
     complexRec(8);
     cout<<ops<<endl;
     cout<<maxdph<<endl;
+
 }
